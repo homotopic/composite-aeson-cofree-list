@@ -1,0 +1,25 @@
+name:                composite-aeson-cofree-list
+version:             0.1.0.0
+license:             MIT
+category:            Text
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "2020 Daniel Firth"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Print a Cofree [] as a JSON value.
+description:         Print a Cofree [] as a JSON value.
+
+dependencies:
+- aeson
+- base >= 4.7 && < 5
+- composite-aeson
+- composite-aeson-writeonly
+- free
+- vector
+
+library:
+  source-dirs: src
